@@ -1,0 +1,23 @@
+Copyright © 2011: Lattyware <gareth@lattyware.co.uk>
+
+This game is released under the GPLv3 - please see COPYING for the licence.
+
+If you have a source version and would like a static build, please see
+http://www.lattyware.co.uk/projects/unrest - just download the build appropriate
+for your OS and just run the executable. This is reccomended for most users.
+
+If you have a static build and would like the source, please see the above link
+and download the source package.
+
+This game requires Python 3, SFML2 and the PySFML2 bindings, found respectively
+in the following places:
+
+http://python.org/
+http://www.sfml-dev.org/index.php
+https://github.com/bastienleonard/pysfml2-cython
+
+Please DO NOT run the setup.py script - it is designed with cx_freeze in order
+to create static binaries that can be run without dependancies.
+
+To run from source just do a ./unrest.py (presuming it's executable and python3 is
+your default python - if not, try python3 unrest.py).
